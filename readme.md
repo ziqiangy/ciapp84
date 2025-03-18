@@ -147,11 +147,9 @@ For inquiries, partnerships, or contributions, contact:
 
 - GitHub: [https://github.com/ziqiangy](https://github.com/ziqiangy)
 
-
-
 ---
 
-## **Additional Information
+## **Additional Information**
 
 The template of this project is by using [pocketarc/codeigniter](https://github.com/pocketarc/codeigniter) which is a CI3 fork compatible with PHP8.4, here is more information from pocketarc:
 
