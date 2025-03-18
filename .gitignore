@@ -8,19 +8,20 @@ application/logs/*
 
 !application/*/.htaccess
 
-composer.lock
+
 tests/mocks/database/ci_test.sqlite
 
 user_guide_src/build/*
 user_guide_src/cilexer/build/*
 user_guide_src/cilexer/dist/*
 user_guide_src/cilexer/pycilexer.egg-info/*
-/vendor/
+
 
 # IDE Files
 #-------------------------
 /nbproject/
 .idea/*
+.vscode
 
 ## Sublime Text cache files
 *.tmlanguage.cache
@@ -30,3 +31,23 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.sublime-project
 /tests/tests/
 /tests/results/
+
+
+##Composer
+composer.lock
+/vendor/
+
+
+##npm
+package-lock.json
+/node_modules/
+
+
+
+## Codeigniter config files
+application/config/config.php
+application/config/database.php
+
+## Google auth
+
+/secure/
